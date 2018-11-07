@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-require '../src/Problema.php';
+include_once __DIR__.'/../src/Problema.php';
 
 final class ProblemaTest extends TestCase{
 

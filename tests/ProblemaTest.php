@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 include_once __DIR__.'/../src/Problema.php';
 
+use PHPUnit\Framework\TestCase;
+
 final class ProblemaTest extends TestCase{
 
     private $p;

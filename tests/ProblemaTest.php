@@ -21,7 +21,7 @@ final class ProblemaTest extends TestCase{
 
     public function testAnoBissextoVerificarBissexto(){
         $this->assertEquals(true, $this->p->verificarBissexto(2016));
-        $this->assertEquals(true, $this->p->verificarBissexto(1700));
+        $this->assertEquals(true, $this->p->verificarBissexto(1600));
     }
 
     public function testAnoNaoBissextoVerificarBissexto(){

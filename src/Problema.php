@@ -65,7 +65,10 @@ class Problema{
             }
         }
 
-
-        return $soma;
+        if($soma >= 1 && $soma <= 4999){
+            return $soma;
+        }else{
+            return -1;
+        }
     }
 }
